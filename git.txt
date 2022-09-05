@@ -1,0 +1,119 @@
+install git
+open git bash
+then write
+git
+
+write pwd
+
+cd desktop
+
+cd /c
+
+git status
+
+
+create folder to rename with any name
+
+then after in that folder 
+write this command
+git config --global user.name "nusrat"
+git config --global user.email "nusratwaheedkhan@gmail.com"
+
+git config --list
+
+$ git config --global core.editor emac
+$ git config --global core.editor vm
+
+
+git config user.name
+
+
+
+git config user.email
+
+create any project file in same folder like first.;txt
+
+git status
+
+git init
+after execute this command it shows master branch
+then again
+git status
+it shows on branch file
+
+then
+git add --a
+
+git status
+
+git commit -m "initial commit"
+git status
+
+git log                                //see detail
+
+
+write some text into txt file and then
+run command again on git bash
+git status
+it shows modified 
+git add firsat.txt
+
+git commit -m "changes data"
+git status
+git add --a
+git status
+git log
+git branch
+git checkout -b "bugfix"
+git chekout master
+git remote
+git push -u origin master
+git branch
+
+
+exit from log
+write 
+rm -rf .git
+
+git status
+git push -f mygitapp master
+
+
+
+now open git tensorflow and write this command git clone then paste tenserflow copy link
+
+git clone https://github.com/tensorflow/tensorflow.git
+
+
+
+git create repo
+then write on bash
+git remote
+then copy this link from repo
+git remote add origin https://github.com/nusratwahid/ecom.git
+excute this and
+git remote
+
+git remote -v
+
+
+$ git checkout -b master
+
+
+git switch -c master
+
+
+
+
+
+git three stage architecture
+
+local operation
+1.working directory
+2.staging area
+3.gti directory (repositry)
+
+git checkout master
+git push -d origin bugfix                                     //delete file
+$ git pull origin master
+git push -u origin master                                   //push files
